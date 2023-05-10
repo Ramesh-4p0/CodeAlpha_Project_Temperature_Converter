@@ -90,8 +90,10 @@
     }
 
     h1 {
-        display: flex;
-        justify-content: right;
+           display: flex;
+    justify-content: center;
+    margin: 24px 49px;
+    text-align: center;
     }
 
     .row {
