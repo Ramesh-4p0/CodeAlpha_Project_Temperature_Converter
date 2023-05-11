@@ -1,60 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <div class="flex">
-        <div>
-            <h1>TEMPERATURE COVERSION</h1>
-            <div class="row">
-                <h2 class="one">Celsius</h2>
-                <input id="celsius" class="imp" type="number" placeholder=" Celsius in °C " value="name"
-                    oninput="fahrenheitConverter(this.value)" onchange="fahrenheitConverter(this.value)">
-            </div>
-            <p>Celsius: <span id="outputFahrenheit"></span></p>
-
-            <div class="row">
-                <h2 class="one">farenheit</h2>
-                <input id="fahrenheit" class="imp" type="number" placeholder=" farenheit in °F"
-                    oninput="celsiusConverter(this.value)" onchange="celsiusConverter(this.value)">
-            </div>
-            <p>Celsius: <span id="outputCelsius"></span></p>
-
-            <div class="row1">
-                <h2 class="one">calculation</h2>
-                <textarea id="solution" class="implas" type="text"> calculation </textarea>
-            </div>
-        </div>
-    </div>
-    
-
-    <script>
-        // Celsius to Fahrenheit
-        function fahrenheitConverter(valNum) {
-            valNum = parseFloat(valNum);
-            document.getElementById("outputFahrenheit").innerHTML = (valNum * 1.8) + 32;
-            document.getElementById("solution").innerHTML = ("hi " + valNum);
-        }
-
-
-        // farenheit to celsius
-        function celsiusConverter(valNum) {
-            valNum = parseFloat(valNum);
-            document.getElementById("outputCelsius").innerHTML = (valNum - 32) / 1.8;
-            document.getElementById("solution").innerHTML = ("hi " + valNum);
-        }
-
-    </script>
-</body>
-
-</html>
-<!DOCTYPE html>
+ 
+    <!DOCTYPE html>
 
 <html lang="en">
 
@@ -170,4 +115,11 @@
 
 </body>
 
-</html>
+</html>        
+
+            
+        
+
+            
+
+        
