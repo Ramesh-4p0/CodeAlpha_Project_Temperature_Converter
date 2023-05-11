@@ -128,7 +128,7 @@ media screen and (min-width: 760px) {
 
 }
 
-@media (min-width: 300px) and (max-width: 760px) {
+@media (min-width: 300px) and (max-width: 750px) {
 
     body {
 
