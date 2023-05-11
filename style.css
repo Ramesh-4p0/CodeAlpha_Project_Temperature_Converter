@@ -140,7 +140,7 @@
     body {
 
         background-color: #80a575;
-        background-image: url(temp.jpg);
+        background-image: url("temp.jpg");
         /* background-color: white; */
         background-position: center center;
         background-attachment: fixed;
