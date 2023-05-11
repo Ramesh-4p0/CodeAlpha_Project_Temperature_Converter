@@ -1,4 +1,4 @@
-media screen and (min-width: 770px) {
+
 
     body {
 
@@ -126,7 +126,7 @@ media screen and (min-width: 770px) {
 
     }
 
-}
+
 
 @media (min-width: 300px) and (max-width: 760px) {
 
@@ -238,7 +238,7 @@ media screen and (min-width: 770px) {
 
     }
 
-   #outputFarenheit {
+   #outputFahrenheit {
 
         border: 2px solid purple;
 
