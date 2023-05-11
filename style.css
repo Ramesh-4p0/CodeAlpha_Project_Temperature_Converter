@@ -1,140 +1,266 @@
-@media screen and (min-width: 770px) {
-
+media screen and (min-width: 770px) {
 
     body {
+
         background-color: #80a575;
+
         width: 100vw;
+
         height: 100vh;
+
         margin: 0;
+
         padding: 0;
+
     }
 
     .flex {
+
         display: flex;
+
         border: 2px solid red;
+
         justify-content: center;
+
         /* height: 85vh; */
+
         width: 64vw;
+
         margin: auto;
+
         padding: 48px 62px;
+
         background-color: aquamarine;
+
         border-radius: 34px;
+
     }
 
     h1 {
+
         align-content: center;
+
     }
 
     .row {
+
         display: flex;
+
         flex-direction: column;
+
         border: 2px solid red;
+
         justify-content: center;
+
         margin: 31px;
+
         padding: 10px;
+
         background-color: blanchedalmond;
+
         border-radius: 34px;
+
     }
 
     .row1 {
-        display: flex;
-        flex-direction: column;
-        border: 2px solid red;
-        justify-content: center;
-        padding: 10px;
-        background-color: blanchedalmond;
-        border-radius: 34px;
-    }
 
+        display: flex;
+
+        flex-direction: column;
+
+        border: 2px solid red;
+
+        justify-content: center;
+
+        padding: 10px;
+
+        background-color: blanchedalmond;
+
+        border-radius: 34px;
+
+    }
 
     .one {
+
         display: flex;
+
         justify-content: center;
+
         margin-top: 0px;
+
     }
 
-    .imp {
+    #outputCelsius{
+
         border: 2px solid purple;
+
         margin: 0 23px;
+
         padding: 23px 23px;
+
         border-radius: 20px;
+
     }
 
-    .implas {
+ #outputFarenheit{
+
         border: 2px solid purple;
-        height: 72px;
+
         margin: 0 23px;
+
+        padding: 23px 23px;
+
         border-radius: 20px;
+
     }
+
+    #solution{
+
+        border: 2px solid purple;
+
+        height: 72px;
+
+        margin: 0 23px;
+
+        border-radius: 20px;
+
+    }
+
 }
 
 @media (min-width: 300px) and (max-width: 760px) {
+
     body {
+
         background-color: #80a575;
+
         width: 100vw;
+
         height: 100vh;
+
         margin: 0;
+
         padding: 0;
+
     }
 
     .flex {
+
         display: flex;
+
         border: 2px solid red;
+
         justify-content: center;
+
         /* height: 85vh; */
+
         width: 70vw;
+
         margin: auto;
+
         padding: 48px 62px;
+
         background-color: aquamarine;
+
         border-radius: 34px;
+
     }
 
     h1 {
+
            display: flex;
+
     justify-content: center;
+
     margin: 24px 49px;
+
     text-align: center;
+
     }
 
     .row {
+
         display: flex;
+
         flex-direction: column;
+
         border: 2px solid red;
+
         justify-content: center;
+
         margin: 31px;
+
         padding: 10px;
+
         background-color: blanchedalmond;
+
         border-radius: 34px;
+
     }
 
     .row1 {
-        display: flex;
-        flex-direction: column;
-        border: 2px solid red;
-        justify-content: center;
-        padding: 10px;
-        background-color: blanchedalmond;
-        border-radius: 34px;
-    }
 
+        display: flex;
+
+        flex-direction: column;
+
+        border: 2px solid red;
+
+        justify-content: center;
+
+        padding: 10px;
+
+        background-color: blanchedalmond;
+
+        border-radius: 34px;
+
+    }
 
     .one {
+
         display: flex;
+
         justify-content: center;
+
         margin-top: 0px;
+
     }
 
-    .imp {
+  #outputCelsius {
+
         border: 2px solid purple;
+
         margin: 0 23px;
+
         padding: 23px 23px;
+
         border-radius: 20px;
+
     }
 
-    .implas {
+   #outputFarenheit {
+
         border: 2px solid purple;
-        height: 72px;
+
         margin: 0 23px;
+
+        padding: 23px 23px;
+
         border-radius: 20px;
+
     }
+
+    #solution {
+
+        border: 2px solid purple;
+
+        height: 72px;
+
+        margin: 0 23px;
+
+        border-radius: 20px;
+
+    }
+
 }
+
